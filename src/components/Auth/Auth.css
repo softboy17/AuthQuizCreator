@@ -1,0 +1,76 @@
+.logIN {
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 24px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: 1px solid #ffffff;
+	border-radius: 3px;
+	height: 37px;
+	line-height: 37px;
+	font-size: 14px; 
+	text-transform: uppercase;
+	font-weight: 600;
+	text-decoration: none;
+	color: #000;
+	background-color: #05cd51;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+	transition: box-shadow .18s ease-out,background .18s ease-out,color .18s ease-out;
+}
+.logIN:focus-visible {
+	box-shadow: 0 0 0 3px lightskyblue;
+}
+.logIN:hover {
+	box-shadow: 0 1px 1px 0  #cfcfcf, 0 2px 5px 0  #cfcfcf;
+}
+.logIN:active {
+	background-color: #058c38 !important;
+}
+.logIN:disabled {
+	background-color: #aed2bc;
+	color: #444;
+	pointer-events: none;
+}
+.signUP {
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 15px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	height: 38px;
+	line-height: 38px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #000;
+	background-color: #FCBF4E;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+}
+.signUP:focus-visible{
+	box-shadow: 0 0 0 3px lightskyblue;
+}
+.signUP:hover {
+	box-shadow: 0 1px 1px 0  #cfcfcf, 0 2px 5px 0  #cfcfcf;
+}
+.signUP:active {
+	background-color: #FCBF1E !important;
+}
+.signUP:disabled {
+	background-color: #aed2bc;
+	color: #444;
+	pointer-events: none;
+}
+.Auth {
+    border-radius: 200px;
+}
+.input button{
+	margin-left: 10px;
+}
