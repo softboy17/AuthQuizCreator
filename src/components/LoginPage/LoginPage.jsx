@@ -8,6 +8,7 @@ const LoginPage = () => {
             <button>
             <Link to = "/LoginPage">LoginPage</Link>
             </button>
+            <p> fix </p>
         </div>
     );
 }
